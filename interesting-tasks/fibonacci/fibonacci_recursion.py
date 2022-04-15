@@ -7,4 +7,4 @@ def fibonachi(num):
         return fibonachi(num - 1) + fibonachi(num - 2)
 
 if __name__ == '__main__':
-    print([fibonachi(num) for num in range(30)])
+    print([fibonachi(num) for num in range(50)])
